@@ -3,7 +3,7 @@ Quick little PHP script to retrieve lottery results from a website - 16 January 
 
 # Setup
 1. I used a simple localhost MySQL database, so the username and password are left as is
-2. Create your database, mine is called 'lottery_test', ensure you enter your databse connection username and password.
+2. Create your database, mine is called 'lottery_test', ensure you enter your database connection username and password.
 3. Create the table using this, either through PHP Admin or any alternative method you aware of:<br>
    CREATE TABLE lottery_draws (
     id INT AUTO_INCREMENT PRIMARY KEY,  -- Unique identifier for each record<br>
