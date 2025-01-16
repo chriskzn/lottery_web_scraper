@@ -4,7 +4,7 @@ Quick little PHP script to retrieve lottery results from a website - 16 January 
 # Setup
 1. I used a simple localhost MySQL database, so the username and password are left as is
 2. Create your database, mine is called 'lottery_test', ensure you enter your databse connection username and password.
-3. Create the table using this, either through PHP Admin or any alternative method you aware of:
+3. Create the table using this, either through PHP Admin or any alternative method you aware of:<br>
    CREATE TABLE lottery_draws (
     id INT AUTO_INCREMENT PRIMARY KEY,  -- Unique identifier for each record
     draw_date DATE NOT NULL,             -- Date of the draw
@@ -17,4 +17,4 @@ Quick little PHP script to retrieve lottery results from a website - 16 January 
 4. Copy this file into the root of your public / (or in the example I use XAMPP and so xampp\htdocs).
 5. Run the script, you should see results for Goslotto 7/49 as this is the lotto result I have asked this script to scrape from the site: https://gosloto.app/
 
-   #Enjoy, hope you able to learn and read through the code? Let me know if you require any further information?
+# Enjoy, hope you able to learn and read through the code? Let me know if you require any further information?
